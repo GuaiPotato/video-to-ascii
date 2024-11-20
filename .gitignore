@@ -1,0 +1,27 @@
+# 忽略 Python 编译文件
+*.pyc
+__pycache__/
+
+# pyenv版本信息
+.python-version
+
+# 忽略虚拟环境目录
+venv/
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+
+# 忽略输出目录
+output/
+
+# 忽略输入目录
+input/
+
+# 忽略 IDE 配置文件
+.idea/
+.vscode/
+
+# 忽略操作系统生成的文件
+Thumbs.db
+.DS_Store
